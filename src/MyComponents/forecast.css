@@ -1,0 +1,13 @@
+.card{
+    background-color: rgba(112, 166, 173, 0.5);
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    font-family: Calibri ;;
+    font-weight: 300px;
+    border-radius: 16px;
+
+}
+.fore{
+    transition: 1s ease;
+}

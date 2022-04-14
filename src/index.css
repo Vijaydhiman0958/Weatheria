@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'FELIX TITLING', FELIX TITLING;
+}
+
+.app {
+  background-image: url('https://images-ext-2.discordapp.net/external/9ovzWVZ7Deu0-vL8UxmwKDxBUTE7PRIiTUO9VT8IdY8/https/i.pinimg.com/originals/20/95/d6/2095d63e84c71c306b6c18af555e59e1.jpg?width=1189&height=669');
+  background-size: cover;
+  background-position: bottom;
+  transition: 1s ease;
+
+}
+
+.app.warm {
+  background-image: url('https://images-ext-2.discordapp.net/external/9ovzWVZ7Deu0-vL8UxmwKDxBUTE7PRIiTUO9VT8IdY8/https/i.pinimg.com/originals/20/95/d6/2095d63e84c71c306b6c18af555e59e1.jpg?width=1189&height=669');
+}
+
+.app.sunny{
+  background-image: url('https://static.wikia.nocookie.net/dragonball/images/d/d3/Solarflare_tien.jpg/revision/latest?cb=20180522014341');
+
+}
+.app.rainy{
+  background-image: url('https://images.hdqwalls.com/download/umbrella-rain-anime-girl-4k-rg-1920x1080.jpg');
+}
+.app.cloudy{
+  background-image: url('https://images8.alphacoders.com/106/thumb-1920-1066910.png');
+}
+main {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
+  padding: 0 25px 0 25px;
+}
+
+.search-box {
+  width: 100%;
+  margin: 0 0 75px;
+  
+}
+
+.search-box .search-bar {
+  width: 100%;
+  padding: 15px;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: rgba(85, 141, 148, 0.322);
+  border-radius: 0px 0px 16px 16px;
+  
+
+  box-shadow: 3px 4px rgba(0, 0, 0, 0.2);
+  
+  color: #313131;
+  font-size: 20px;
+
+  transition: 1s ease;
+}
+::placeholder {
+  color: rgb(141, 152, 168);
+  opacity: 1; 
+}
+.search-box .search-bar:focus {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.location-box .location {
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+.location-box .date {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+}
+
+.weather-box {
+  text-align: center;
+}
+
+.weather-box .temp {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;  
+  background-color: rgba(112, 166, 173, 0.4);
+  border-radius: 16px;
+
+  padding: 15px 25px;
+
+  color: #FFF;
+  font-size: 102px;
+  font-weight: 900;
+
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+.weather-box .temp .temprange{
+
+  font-size: 22px;
+  font-weight: 70;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.weather-box .weather {
+  color: #FFF;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+.wrapper{
+  text-align: center;
+  
+}
+
